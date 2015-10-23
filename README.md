@@ -4,10 +4,10 @@
 ---
 
 
-### Create an dev environment from nothing. 23rd Oct '15
+# Create an dev environment by pale OSX. 23rd Oct '15
 
 
-#### Sublime Text
+### Sublime Text
 
 - download [Sublime Text](http://www.sublimetext.com/)
 - Activate Package Controll from [here]()
@@ -19,12 +19,12 @@
 - Edit http_proxy & https_proxy on "Preferences" -> "Package Settings" -> "Package Control" -> "Settings Default"
 
 
-#### iTerm
+### iTerm
 
 - download [iTerm 2](https://www.iterm2.com/)
 
 
-#### Homebrew
+### Homebrew
 
 - install Homebrew from [brew.sh](http://brew.sh/)
 
@@ -39,14 +39,12 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 $ export http_proxy=http://example.com:8080/
 $ export https_proxy=$http_proxy
 $ export all_proxy=$http_proxy
-
-# proxy paths witten on .pac file
 ```
 
-[Qiita](http://qiita.com/gishi_yama/items/2e92d3d72e21c74704cb)
+proxy path witten on a .pac file
 
 
-#### Git
+### Git
 
 - install Git
 
@@ -54,21 +52,28 @@ $ export all_proxy=$http_proxy
 $ brew install git
 ```
 
-#### 
-
-git config --global url.https://github.com/.insteadOf git://github.com/
-
-
-#### Show invisible files
+### Show invisible files
 
 ```zsh
 $ defaults write com.apple.finder AppleShowAllFiles TRUE
 $ killall Finder
 ```
 
-#### Add git global setting for proxy
+### Add git global setting for proxy. It enables to "git push"
 
 ```zsh
 $ git config --global http.proxy http://sample.com:8080/
+$ git config --global https.proxy http://sample.com:8080/
 ```
 
+
+### Node
+
+- Install [Node.js](https://nodejs.org/en/)
+
+
+<!--
+### $
+
+git config --global url.https://github.com/.insteadOf git://github.com/
+-->
