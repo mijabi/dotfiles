@@ -66,4 +66,9 @@ $ defaults write com.apple.finder AppleShowAllFiles TRUE
 $ killall Finder
 ```
 
+#### Add git global setting for proxy
+
+```zsh
+$ git config --global http.proxy http://sample.com:8080/
+```
 
