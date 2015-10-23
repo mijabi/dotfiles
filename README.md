@@ -12,6 +12,7 @@
 - download [Sublime Text](http://www.sublimetext.com/)
 - Activate Package Controll from [here]()
 
+
 ##### When you are on proxy probrem
 
 - You'd better to [install manualy](https://packagecontrol.io/installation#st2)
@@ -51,6 +52,18 @@ $ export all_proxy=$http_proxy
 
 ```zsh
 $ brew install git
+```
+
+#### 
+
+git config --global url.https://github.com/.insteadOf git://github.com/
+
+
+#### Show invisible files
+
+```zsh
+$ defaults write com.apple.finder AppleShowAllFiles TRUE
+$ killall Finder
 ```
 
 
