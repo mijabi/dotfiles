@@ -4,7 +4,7 @@
 ---
 
 
-# Create an dev environment by pale OSX. 23rd Oct '15
+# Create an dev environment with pale OSX. 23rd Oct '15
 
 
 ### Sublime Text
