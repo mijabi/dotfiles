@@ -77,3 +77,11 @@ $ git config --global https.proxy http://sample.com:8080/
 
 git config --global url.https://github.com/.insteadOf git://github.com/
 -->
+
+---
+
+## If you need
+
+#### Ruby
+
+My Yosemite may accepts only 2.0.0-p451
