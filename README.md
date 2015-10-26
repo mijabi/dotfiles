@@ -72,6 +72,46 @@ $ git config --global https.proxy http://sample.com:8080/
 - Install [Node.js](https://nodejs.org/en/)
 
 
+### oh-my-zsh
+
+- Insatll [Oh My ZSH!](https://github.com/robbyrussell/oh-my-zsh)
+
+##### Install manually
+
+```bash
+$ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+$ cp ~/.zshrc ~/.zshrc.orig
+$ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+$ zsh
+
+# If you install manually, you have to update manually via code below
+$ upgrade_oh_my_zsh
+```
+
+##### Select and edit [plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) of Oh My ZSH
+
+```txt
+: ~/.zshrc
+
+# plugins=(git)
+plugins=(git sublime sudo web-search)
+```
+
+[sublime](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#sublime) / [sudo](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#sudo) / [web-search](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#web-search)
+
+All plugins are placed on ~./oh-my-zsh/plugins
+
+
+##### Chagne [theme](https://github.com/robbyrussell/oh-my-zsh/wiki/themes) if you want
+
+```txt
+: ~/.zshrc
+
+# ZSH_THEME="robbyrussell"
+```
+
+
+
 <!--
 ### $
 
