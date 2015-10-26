@@ -28,14 +28,14 @@
 
 - install Homebrew from [brew.sh](http://brew.sh/)
 
-```zsh
+```bash
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 
 ##### If you have proxy probrem
 
-```zsh
+```bash
 $ export http_proxy=http://example.com:8080/
 $ export https_proxy=$http_proxy
 $ export all_proxy=$http_proxy
@@ -48,20 +48,20 @@ proxy path witten on a .pac file
 
 - install Git
 
-```zsh
+```bash
 $ brew install git
 ```
 
 ### Show invisible files
 
-```zsh
+```bash
 $ defaults write com.apple.finder AppleShowAllFiles TRUE
 $ killall Finder
 ```
 
 ### Add git global setting for proxy. It enables a "git push"
 
-```zsh
+```bash
 $ git config --global http.proxy http://sample.com:8080/
 $ git config --global https.proxy http://sample.com:8080/
 ```
@@ -110,7 +110,13 @@ All plugins are placed on ~./oh-my-zsh/plugins
 # ZSH_THEME="robbyrussell"
 ```
 
+### Grunt
 
+- Install [Grunt CLI](http://gruntjs.com/getting-started)
+
+```zsh
+% npm install -g grunt-cli
+```
 
 <!--
 ### $
