@@ -59,7 +59,7 @@ $ defaults write com.apple.finder AppleShowAllFiles TRUE
 $ killall Finder
 ```
 
-### Add git global setting for proxy. It enables to "git push"
+### Add git global setting for proxy. It enables a "git push"
 
 ```zsh
 $ git config --global http.proxy http://sample.com:8080/
