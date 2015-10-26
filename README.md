@@ -1,9 +1,6 @@
 # dotfiles
 
 
----
-
-
 # Create an dev environment with pale OSX. 23rd Oct '15
 
 
@@ -29,7 +26,7 @@
 - install Homebrew from [brew.sh](http://brew.sh/)
 
 ```bash
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 
@@ -126,8 +123,8 @@ git config --global url.https://github.com/.insteadOf git://github.com/
 
 ---
 
-## If you need
+## Memo
 
 #### Ruby
 
-My Yosemite may accepts only 2.0.0-p451
+Some of your Yosmeite may accepts only specific version like, 2.0.0-p451.
