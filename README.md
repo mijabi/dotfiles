@@ -28,6 +28,7 @@ Emmet
 - You should be restart your mac
 
 ```bash
+# enable ATOM Shell Command
 $ apm config set https-proxy http://example.com:8080/
 ```
 
