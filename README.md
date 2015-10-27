@@ -25,10 +25,18 @@ Emmet
 
 - Install [ATOM](https://atom.io/)
 - Install shell-commands via "Atom" -> "Install Shell Commands"
+- You should be restart your mac
 
+```bash
+$ apm config set https-proxy http://example.com:8080/
 ```
 
-```
+<!--
+Emmet
+Markdown Preview
+-->
+
+
 
 ### iTerm
 
