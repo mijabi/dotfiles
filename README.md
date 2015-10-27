@@ -82,8 +82,8 @@ $ killall Finder
 ### If you've got proxy probrem, add git global setting for them. It enables a "git push"
 
 ```bash
-$ git config --global http.proxy http://sample.com:8080/
-$ git config --global https.proxy http://sample.com:8080/
+$ git config --global http.proxy http://example.com:8080/
+$ git config --global https.proxy http://example.com:8080/
 ```
 
 
