@@ -21,6 +21,15 @@ Emmet
 - Edit http_proxy & https_proxy on "Preferences" -> "Package Settings" -> "Package Control" -> "Settings Default"
 
 
+### ATOM
+
+- Install [ATOM](https://atom.io/)
+- Install shell-commands via "Atom" -> "Install Shell Commands"
+
+```
+
+```
+
 ### iTerm
 
 - download [iTerm 2](https://www.iterm2.com/)
