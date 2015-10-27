@@ -113,6 +113,51 @@ All plugins are placed on ~./oh-my-zsh/plugins
 $ chsh -s /bin/zsh
 ```
 
+### XAMPP
+
+- Install [XAMPP](https://www.apachefriends.org/)
+
+##### Show files located on "/User/git/" as "http://git.hoge.com/"
+
+```
+: /etc/hosts
+
+# add below 
+$yourHost$ git.hoge.com
+```
+
+```
+: /Applications/XAMPP/xamppfiles/etc/httpd.conf
+
+# Virtual hosts
+# Include etc/extra/httpd-vhosts.conf
+↓
+# Virtual hosts
+Include etc/extra/httpd-vhosts.conf
+```
+
+```
+: /Applications/XAMPP/xamppfiles/etc/extra/httpd-vhosts.conf
+
+# add below (enable SSI)
+<VirtualHost *:80>
+    DocumentRoot "/Users/$yourUserName$/git"
+    DirectoryIndex index.php index.html
+    ServerName git.hoge.com
+    ErrorLog "/Applications/XAMPP/htdocs/error.log"
+    <Directory "/Users/$yourUserName$/git">
+        Options +Includes
+        AddOutputFilter INCLUDES .html
+        AddType text/html .shtml
+        Order deny,allow
+        Allow from ALL
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
+```
+
+---
 
 ### Grunt
 
