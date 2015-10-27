@@ -56,7 +56,7 @@ $ defaults write com.apple.finder AppleShowAllFiles TRUE
 $ killall Finder
 ```
 
-### Add git global setting for proxy. It enables a "git push"
+### If you've got proxy probrem, add git global setting for them. It enables a "git push"
 
 ```bash
 $ git config --global http.proxy http://sample.com:8080/
@@ -73,7 +73,7 @@ $ git config --global https.proxy http://sample.com:8080/
 
 - Insatll [Oh My ZSH!](https://github.com/robbyrussell/oh-my-zsh)
 
-##### Install manually
+##### Install manually if you need
 
 ```bash
 $ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
@@ -113,6 +113,14 @@ All plugins are placed on ~./oh-my-zsh/plugins
 
 ```zsh
 % npm install -g grunt-cli
+```
+
+### Gulp
+
+- Install [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
+
+```zsh
+% npm install --global gulp
 ```
 
 <!--
