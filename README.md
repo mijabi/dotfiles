@@ -107,6 +107,13 @@ All plugins are placed on ~./oh-my-zsh/plugins
 # ZSH_THEME="robbyrussell"
 ```
 
+##### Change your default shell, if you want
+
+```bash
+$ chsh -s /bin/zsh
+```
+
+
 ### Grunt
 
 - Install [Grunt CLI](http://gruntjs.com/getting-started)
