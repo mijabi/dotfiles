@@ -182,6 +182,13 @@ Include etc/extra/httpd-vhosts.conf
 
 ---
 
+### Compass
+
+```bash
+% gem install compass --http-proxy http.proxy http://example.com:8080/
+```
+
+
 ### Grunt
 
 - Install [Grunt CLI](http://gruntjs.com/getting-started)
