@@ -188,6 +188,12 @@ Include etc/extra/httpd-vhosts.conf
 % gem install compass --http-proxy http.proxy http://example.com:8080/
 ```
 
+or 
+
+```bash
+% gem install compass -p http://example.com:8080/
+```
+
 
 ### Grunt
 
