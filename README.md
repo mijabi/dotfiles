@@ -224,3 +224,12 @@ git config --global url.https://github.com/.insteadOf git://github.com/
 #### Ruby
 
 Some of your Yosmeite may accepts only specific version like, 2.0.0-p451.
+
+## Vim
+
+vimdiff
+
+```zsh
+% git config --global diff.tool vimdiff
+% git config --global difftool.prompt false
+```
