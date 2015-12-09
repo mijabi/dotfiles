@@ -63,6 +63,12 @@ $ export all_proxy=$http_proxy
 
 proxy path witten on a .pac file
 
+##### You may be need curl proxy setting
+
+```
+$ vi ~/.curlrc
+$ proxy = "http://example.com:8080/"
+```
 
 ### Git
 
