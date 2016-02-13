@@ -186,6 +186,11 @@ Include etc/extra/httpd-vhosts.conf
 </VirtualHost>
 ```
 
+#### if you load json asynchronousely, do not forget set MIME-Type for json
+
+/etc/mime.types  
+application/json    json
+
 ---
 
 ### Compass
